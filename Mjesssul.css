@@ -1,0 +1,278 @@
+@font-face { font-family: 'Binggrae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body {
+  letter-spacing: -0.05em !important;
+  background: transparent;
+  font-family: 'Binggrae', sans-serif;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
+}
+
+#article-list #article-list-category {
+  border-top: 2px solid #F8B2A6;
+  background: white;
+}
+
+#article-list #article-list-category>a {
+  background: white;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #F8B2A6;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #F8B2A6;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #F8B2A6;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #F8B2A6;
+  border-color: #F8B2A6;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #F8B2A6;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #F8B2A6;
+}
+
+#article-content-wrapper>.header {
+  border-top: 2px solid #F8B2A6;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #F8B2A6;
+}
+
+#article-info>h2 {
+  font-weight: bold;
+}
+
+#article-info>h2>span.category {
+  color: #F8B2A6 !important;
+}
+
+#article-reply-area>.header h5 {
+  color: #F8B2A6;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #F8B2A6;
+}
+
+.btn-primary {
+  background: #F8B2A6 !important;
+}
+
+/* 모바일 */
+
+#header-top-notice {
+  display: none;
+}
+
+header {
+  background-color: #F0ECE1;
+  border-bottom-color: #F8B2A6;
+}
+
+header>#header-area>a>h1 {
+  background: url('https://1.bp.blogspot.com/-Wp8KCRSG0s0/XYFopLOdAlI/AAAAAAAAAbk/aH29vAhEpSMtOYi-Udjn-E928E0S8gj6QCLcBGAsYHQ/s320/%25EB%25A1%259C%25EA%25B3%25A0%25ED%259A%258C%25EC%25A0%25841.gif') no-repeat;
+  background-size: auto 36px;
+  background-repeat: no-repeat;
+  height: unset !important;
+  width: 98px;
+}
+
+header>#header-area>#header-search-link {
+  color: #F8B2A6;
+}
+
+header>#header-area>#header-bar-link {
+  color: #F8B2A6;
+}
+
+header>#header-search-bar #header-search-btn {
+  color: #F8B2A6;
+}
+
+#board-info #score-area #viewers-area {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 115px 0 0 22px;
+    padding : 0 0 0 90px;
+    width: 100%;
+}
+
+#board-info-profile-img {
+    float: left !important;
+    content: url(https://1.bp.blogspot.com/-gXJD0UCOt6Y/XYcmUJ01ekI/AAAAAAAAAcs/SiP-ZXP-a7kFlDo30uoF7Lv32jW_u2regCLcBGAsYHQ/s1600/shoulder75x75.gif);
+    width: 75px !important;
+    height: 75px !important;
+    display: block;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+#board-info #viewers-area #viewers:before {
+    content: "진진단 ";
+    cursor: text;
+}
+
+#board-info #viewers-area #viewers:after {
+    content: "명";
+    cursor: text;
+}
+
+
+#board-info > h1 > a {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 140px 0 0 90px;
+}
+
+.badge {
+   float: left;
+   position: absolute;
+   left: 0;
+   top: 0;
+   margin: 172px 0 0 90px;
+}
+
+.badge-live {
+float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 172px 0 0 90px !important;
+}
+
+#board-info>a.board-right-menu {
+   margin-top: 28px;
+   border: 0;
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {
+  display: none;
+}
+
+header>#header-search-bar #header-search-input {
+  border-color: #F8B2A6;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+  color: #F8B2A6;
+  letter-spacing: -0.05em !important;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+  color: #F8B2A6;
+}
+
+#nav#nav>.nav-header {
+  background-color: #F8B2A6;
+  color: white;
+}
+
+/* 인기글 애니메이션 효과 */
+
+@keyframes rotation{ from { transform: rotate(0deg); } to { transform: rotate(360deg); } } 
+span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
+
+/* 하트 애니메이션 효과 */
+
+.fa-heart:before {
+    color: #ed0074;
+    animation: pulse 1.5s infinite;
+    border-radius: 50%;
+    box-shadow: 0 0 0 rgba(237, 0, 116, 0.4);
+}
+
+.fa-eye:before {
+    color: #ed0074;
+    content: "\f06e";
+}
+
+.fa-commenting:before {
+    color: #ed0074;
+    content: "\f27a";
+}
+
+/* keyframe animations */
+
+@keyframes rainbowLink {
+  000% { color: #ffffff; }
+  010% { color: #ff5c5c; }
+  020% { color: #f5cfcf; }
+  030% { color: #febbbb; }
+  040% { color: #fe9090; }
+  050% { color: #ffeeee; }
+  060% { color: #fe9090; }
+  070% { color: #febbbb; }
+  080% { color: #f5cfcf; }
+  090% { color: #ff5c5c; }
+  100% { color: #ffffff; }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(237, 0, 116, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(237, 0, 116, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(237, 0, 116, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(237, 0, 116, 0.4);
+    box-shadow: 0 0 0 0 rgba(237, 0, 116, 0.4);
+}
+  
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(237, 0, 116, 0);
+      box-shadow: 0 0 0 10px rgba(237, 0, 116, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(237, 0, 116, 0);
+      box-shadow: 0 0 0 0 rgba(237, 0, 116, 0);
+  }
+}
+
+
+
+.fa-eye:before {
+    color: #ed0074;
+    content: "\f06e";
+   display: none;
+}
+
+/* img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
+    display: none; 
+} */
