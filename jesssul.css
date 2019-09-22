@@ -1,0 +1,902 @@
+@font-face { font-family: 'Binggrae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'BRRA_B'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRBA_B.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body {
+
+letter-spacing: -0.05em !important;
+
+  background: transparent;
+
+/*  background-image:url(https://upload.tgd.kr/20190520/9c819a9ad8bceab4ee803ebf7c7fdcb7.png); */
+
+  font-family: 'Binggrae', sans-serif;
+
+/*  animation:cherryblossom 30s linear infinite */
+
+}
+
+html {
+
+  background: linear-gradient(to bottom, #F0ECE1, #F0ECE1);
+
+  height: auto !important;
+
+}
+
+
+
+/* 전체 쉐도우 */
+
+
+
+header #header-bar>.row,
+
+#main .menu-wrapper,
+
+#main #main-content>div.frame {
+
+    box-shadow: 3px 0px 10px rgba(0, 0, 2, 0.3);
+
+}
+
+
+
+/* 로고밑 NAV bar */
+
+
+
+header #header-bar>.row {
+
+  border-top: 4px solid #F8B2A6;
+
+  border-right: none;
+
+  border-bottom: none;
+
+}
+
+
+
+/* 헤더 배너 */
+
+
+
+header .row>div:nth-child(1)>a {
+
+  display: block;
+
+  width: 200px;
+
+  height: 55px;
+
+  background: url('https://1.bp.blogspot.com/-Wp8KCRSG0s0/XYFopLOdAlI/AAAAAAAAAbk/aH29vAhEpSMtOYi-Udjn-E928E0S8gj6QCLcBGAsYHQ/s320/%25EB%25A1%259C%25EA%25B3%25A0%25ED%259A%258C%25EC%25A0%25841.gif') no-repeat;
+
+  background-size: auto 65px;
+
+}
+
+
+
+header .row>div:nth-child(1)>a>img {
+
+  display: none;
+
+    
+
+    filter: grayscale(100%);
+
+  opacity: 0.8;
+
+}
+
+
+
+/* 검색폼 보더 */
+
+
+
+header #right-search-form>input[type='text'] {
+
+  border: 3px solid #F8B2A6;
+
+}
+
+
+
+/* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
+
+
+
+#main .menu-wrapper>.header {
+
+  background: #F8B2A6;
+
+}
+
+
+
+.fa-navicon:before,
+
+.fa-reorder:before,
+
+.fa-bars:before {
+
+  color: white;
+
+}
+
+
+
+.fa-square:before {
+
+  color: #F8B2A6;
+
+}
+
+
+
+header #header-bar>.row,
+
+#main .menu-wrapper,
+
+#main #main-content>div.frame {
+
+  border-right: none;
+
+  border-bottom: none;
+
+}
+
+
+
+#main .menu-wrapper {
+
+  border: none;
+
+}
+
+
+
+/* 헤더 검색 버튼 */
+
+
+
+header #right-search-form>#right-search-btn {
+
+  color: #F8B2A6;
+
+}
+
+
+
+/* 헤더 [광고]배경색 */
+
+
+
+header #header-bar #header-top-notice strong.notice-badge {
+
+  background: #F8B2A6;
+
+}
+
+
+
+/* fa색상 */
+
+
+
+header #header-bar .fa {
+
+  color: #F8B2A6;
+
+}
+
+
+
+/* 스트리머 게시판 상단 정보 글씨색상 */
+
+
+
+#board-info #board-info-bottom a {
+
+  color: #F8B2A6;
+
+}
+
+
+
+#board-info #board-info-profile-img {
+
+    width: 75px;
+
+    height: 75px;
+
+    content: url(https://1.bp.blogspot.com/-eC78ClDi4Ec/XYch-_5VaeI/AAAAAAAAAcU/zQbJQFXIkzYZ5VxzJwZ01ua1prcy_S03wCLcBGAsYHQ/s1600/shoulder300x300.gif); 
+
+    position: absolute;
+
+    top: -15px;
+
+    left: 5px;
+
+    border-radius: 50%;
+
+}
+
+
+
+
+
+#board-info h1>a {
+    font-weight: 600;
+    font-family: 'BRRA_B';
+
+}
+
+
+
+#board-info > h1 > a.badge.badge-live:before {
+
+    content: "";
+
+}
+
+
+
+#board-info > h1 > a.badge.badge-live:after {
+
+    content: "";
+
+}
+
+
+
+
+#board-info #viewers-area #viewers:before {
+
+    content: "어둠의 진진단 ";
+
+    cursor: text;
+
+}
+
+
+
+#board-info #viewers-area #viewers:after {
+
+    content: "명 어서와~";
+
+    cursor: text;
+
+}
+
+
+
+#board-info #viewers-area .fa-user:before {
+
+    color: rgba(10,59,84,0);
+
+    content: url(https://static-cdn.jtvnw.net/badges/v1/ec32c840-fcc9-4c65-9e32-8a212ba1b816/1);
+
+}
+
+
+
+
+
+#board-info h1 {
+
+    margin-left: 58px;
+
+    font-size: 24px;
+
+    vertical-align: top;
+
+    padding-bottom: 3px;
+
+    border-bottom: 1px solid #e2e2e2;
+
+}
+
+
+
+#board-info #board-info-bottom {
+
+    padding-top: 3px;
+
+    margin-left: 58px;
+
+}
+
+
+
+/* 좌측메뉴 숏컷링크 글씨 색상 */
+
+
+
+#main .menu-wrapper>a>em {
+
+  color: #F8B2A6;
+
+}
+
+
+
+/* 좌측메뉴 메뉴사이의 공간 색상 */
+
+
+
+#main .menu-wrapper .spacer {
+
+  background: #F8B2A6;
+
+  height: 0.15em;
+
+}
+
+
+
+/* 게시글 관련부분 */
+
+
+
+/* 공지 색상
+
+#article-list>.article-list-row.notice {
+
+    background-color: #F8B2A6;
+
+} */
+
+
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+
+  width: 120px !important;
+
+}
+
+
+
+#article-list>.article-list-row:nth-of-type(2) {
+
+    border-top: 2px solid #F8B2A6;
+
+}
+
+
+
+#article-list #article-list-category {
+
+  border-top: 2px solid #F8B2A6;
+
+  background: white;
+
+}
+
+
+
+#article-list #article-list-category>a {
+
+  background: white;
+
+}
+
+
+
+#article-list>.article-list-row>.item>.list-header>span {
+
+  background-color: #F8B2A6;
+
+}
+
+
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+
+  color: #F8B2A6;
+
+}
+
+
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+
+  color: #F8B2A6;
+
+}
+
+
+
+.pagination>.active>a,
+
+.pagination>.active>a:focus,
+
+.pagination>.active>a:hover,
+
+.pagination>.active>span,
+
+.pagination>.active>span:focus,
+
+.pagination>.active>span:hover {
+
+  background-color: #F8B2A6;
+
+  border-color: #F8B2A6;
+
+}
+
+
+
+.pagination>li>a:focus,
+
+.pagination>li>a:hover,
+
+.pagination>li>span:focus,
+
+.pagination>li>span:hover {
+
+  color: #F8B2A6;
+
+}
+
+
+
+.pagination>li>a,
+
+.pagination>li>span {
+
+  color: #F8B2A6;
+
+}
+
+
+
+#article-content-wrapper>.header {
+
+  border-top: 2px solid #F8B2A6;
+
+}
+
+
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+
+  color: #F8B2A6;
+
+}
+
+
+
+#article-info>h2 {
+
+  font-weight: bold;
+
+}
+
+
+
+#article-info>h2>span.category {
+
+  color: #F8B2A6 !important;
+
+}
+
+
+
+#article-reply-area>.header h5 {
+
+  color: #F8B2A6;
+
+}
+
+
+
+#main .menu-wrapper>a {
+
+  padding: 0.5em 1.4em 0.5em 0.7em !important;
+
+}
+
+
+
+a {
+
+  color: #F8B2A6;
+
+}
+
+
+
+span.a-badge i.fa.fa-info-circle {
+
+  color: #F8B2A6;
+
+}
+
+
+
+/* footer */
+
+
+
+#article-list>.article-list-row {
+
+  border-right: none;
+
+}
+
+
+
+#article-list #article-list-menu {
+
+  box-sizing: border-box;
+
+  width: unset;
+
+  margin: 20px;
+
+}
+
+
+
+#article-list #boardSearchForm {
+
+  padding-bottom: 20px;
+
+  height: unset;
+
+}
+
+
+
+.btn-primary {
+
+  background: #F8B2A6 !important;
+
+}
+
+
+
+#article-list .article-list-row:hover, #article-list div.article-list-row.notice:hover, #article-neighbor-list>div:hover {
+
+   transform: scale(1.02);
+
+   transition: all 0.3s ease-in-out;
+
+   box-shadow: 3px 5px 10px -5px black;
+
+}
+
+
+
+/* 인기글 애니메이션 효과 */
+
+@keyframes rotation{ from { transform: rotate(0deg); } to { transform: rotate(360deg); } } 
+
+
+
+span.a-badge i.fa.fa-star { animation: rotation 2s infinite; }
+
+
+
+/* 프로필 이미지 확대 효과 */
+
+img#board-info-profile-img:hover {
+
+    z-index: 1;
+
+    transform: scale(4);
+
+    transition: transform 1.2s;
+
+}
+
+
+
+
+
+/* dropdown animation 효과 */
+
+.dropdown.open .dropdown-menu,
+
+.input-group-btn.open .dropdown-menu {  
+
+  opacity: unset;
+
+  transform: unset; 
+
+  border: 2px solid #F8B2A6;
+
+  border-radius: 10px;  
+
+  box-shadow: 0 2px 2px rgba(0,0,0,.3);
+
+}
+
+
+
+.dropdown .dropdown-menu,
+
+.input-group-btn .dropdown-menu { 
+
+  display: block !important; 
+
+  opacity: 0;  
+
+  transform: scale(0);
+
+  transform-origin: top;
+
+  transition: all 0.3s cubic-bezier(0.2, 1.5, 0, 1);   
+
+  padding: 8px 0 3px 0px;
+
+}
+
+
+
+.dropdown-menu>li>a {  
+
+  transition: .1s;
+
+}
+
+
+
+.dropdown-menu>li>a:hover {   
+
+  background: transparent;
+
+  transform: scaleX(1.04);
+
+  transition: .1s;   
+
+}
+
+
+
+/*
+
+#movetotop {
+
+    display: inline-block;
+
+    opacity: 1;
+
+    background: url(https://upload.tgd.kr/20190520/d38ea5f45613ef9e6517057fed3c1a74.png);
+
+    width: 300px;
+
+    height:170px;
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+}
+
+
+
+#movetotop img {
+
+  display: none;
+
+}
+
+*/
+
+
+
+/* 하트 애니메이션 효과 */
+
+/*
+
+.fa-heart:before {
+
+    color: #F8B2A6;
+
+    animation: pulse 1.5s infinite;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 0 rgba(255,141,141, 0.4);
+
+}
+
+*/
+
+
+
+#article-votes > i.fa-heart:before {
+
+   color: #F8B2A6;
+
+} 
+
+
+
+.fa-eye:before {
+
+    color: #F8B2A6;
+
+    content: "\f06e";
+
+}
+
+
+
+.fa-commenting:before {
+
+    color: #F8B2A6;
+
+    content: "\f27a";
+
+}
+
+
+
+/* keyframe animations */
+
+/*
+
+@-webkit-keyframes pulse {
+
+  0% {
+
+    -webkit-box-shadow: 0 0 0 0 rgba(255,141,141, 0.4);
+
+  }
+
+  70% {
+
+      -webkit-box-shadow: 0 0 0 10px rgba(255,141,141, 0);
+
+  }
+
+  100% {
+
+      -webkit-box-shadow: 0 0 0 0 rgba(255,141,141, 0);
+
+  }
+
+}
+
+@keyframes pulse {
+
+  0% {
+
+    -moz-box-shadow: 0 0 0 0 rgba(255,141,141, 0.4);
+
+    box-shadow: 0 0 0 0 rgba(255,141,141, 0.4);
+
+  }
+
+  70% {
+
+      -moz-box-shadow: 0 0 0 10px rgba(255,141,141, 0);
+
+      box-shadow: 0 0 0 10px rgba(255,141,141, 0);
+
+  }
+
+  100% {
+
+      -moz-box-shadow: 0 0 0 0 rgba(255,141,141, 0);
+
+      box-shadow: 0 0 0 0 rgba(255,141,141, 0);
+
+  }
+
+}
+
+*/
+
+
+
+small.favo i.fa.fa-heart {
+
+    color: #F8B2A6;
+
+    animation: heartbeat 1s infinite;
+
+}
+
+
+
+@keyframes heartbeat {
+
+    0% { transform: scale(1); }
+
+    30% { transform: scale(1.25); }
+
+    42% { transform: scale(0.9); }
+
+    60% { transform: scale(1.15); }
+
+    85% { transform: scale(0.95); }
+
+    100% { transform: scale(1); }
+
+}
+
+
+
+
+
+
+
+/* cherryblossom */
+
+/*
+
+@keyframes cherryblossom {
+
+    0% {
+
+        background-position:0 0,0 0,0 0
+
+    }
+
+    100% {
+
+        background-position:500px 1000px,400px 400px,300px 300px
+
+    }
+
+}
+
+@-moz-keyframes cherryblossom {
+
+    0% {
+
+        background-position:0 0,0 0,0 0
+
+    }
+
+    100% {
+
+        background-position:500px 1000px,400px 400px,300px 300px
+
+    }
+
+}
+
+@-webkit-keyframes cherryblossom {
+
+    0% {
+
+        background-position:0 0,0 0,0 0
+
+    }
+
+    100% {
+
+        background-position:500px 1000px,400px 400px,300px 300px
+
+    }
+
+}
+
+@-ms-keyframes cherryblossom {
+
+    0% {
+
+        background-position:0 0,0 0,0 0
+
+    }
+
+    100% {
+
+        background-position: 500px 1000px,400px 400px,300px 300px
+
+    }
+
+} */
+
+/* img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
+    display: none; 
+} */
